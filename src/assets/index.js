@@ -22,6 +22,10 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
+import logo from "../assets/images/finestlogodark.png";
+import finestpicha from "../assets/images/finestpicha.jpeg"
+import studentsphoto1 from "../assets/images/students.png"
+
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
 
@@ -57,6 +61,7 @@ import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
 import notification4 from "./notification/image-4.png";
 
+
 import benefitCard1 from "./benefits/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
 import benefitCard3 from "./benefits/card-3.svg";
@@ -76,6 +81,9 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
+  studentsphoto1,
+  finestpicha,
+  logo,
   brainwave,
   check,
   check2,

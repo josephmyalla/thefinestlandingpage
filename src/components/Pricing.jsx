@@ -9,13 +9,7 @@ const Pricing = () => {
     <Section className="overflow-hidden" id="pricing">
       <div className="container relative z-2">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
-          <img
-            src={smallSphere}
-            className="relative z-1"
-            width={255}
-            height={255}
-            alt="Sphere"
-          />
+         
           <div className="absolute top-1/2 left-1/2 w-[60rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
             <img
               src={stars}
@@ -28,8 +22,8 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          tag="Join the finest Family"
+          title="Friendly, affordable installments"
         />
 
         <div className="relative">
@@ -38,13 +32,11 @@ const Pricing = () => {
           <RightLine />
         </div>
 
-        <div className="flex justify-center mt-10">
-          <a
-            className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
-          >
-            See the full details
-          </a>
+        <div className="flex justify-center items-center flex-col mt-10 gap-2">
+       
+            <p className='text-gray-400'>Questions?<span className='text-blue-400 cursor-pointer'>{" "} Chat with us.</span></p>
+            <p className='text-gray-400'>or email at<span className='text-blue-400 cursor-pointer'>{" "} info@finestschool.ac.tz</span></p>
+          
         </div>
       </div>
     </Section>

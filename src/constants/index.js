@@ -1,4 +1,5 @@
 import {
+  studentsphoto1,
   benefitIcon1,
   benefitIcon2,
   benefitIcon3,
@@ -39,32 +40,42 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "Admission",
     url: "#features",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "Learning",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Staff",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Sports",
     url: "#roadmap",
   },
   {
     id: "4",
+    title: "Fees",
+    url: "#signup",
+  },
+  {
+    id: "5",
+    title: "Contact",
+    url: "#signup",
+  },
+  {
+    id: "6",
     title: "New account",
     url: "#signup",
     onlyMobile: true,
   },
   {
-    id: "5",
+    id: "7",
     title: "Sign in",
     url: "#login",
     onlyMobile: true,
@@ -77,10 +88,10 @@ export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
-export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+export const fainestSports = [
+  "Football",
+  "Basketball",
+  "Swimming",
 ];
 
 export const brainwaveServicesIcons = [
@@ -128,22 +139,21 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  ["We follow the Curriculum of the ministry of education of Tanzania, we quickly adapt to apply curriculum apdates.",
+    "We have membership with a number of exams and testing communities, this help prepare our students to be ready for any exams and testing settings.",
+   ]
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Registered with the Ministry",
+    text: collabText[0],
   },
   {
     id: "1",
-    title: "Smart Automation",
-  },
-  {
-    id: "2",
-    title: "Top-notch Security",
-  },
+    title: "Exams Testing Communities",
+    text:collabText[1]
+  }
 ];
 
 export const collabApps = [
@@ -208,35 +218,38 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Pre Primary",
+    description: "School transport is provided and is charged based on the distance from home to school",
+    price: "690,000.00",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "School Fee",
+      "Tea and bites",
+      "Lunch",
+      "Diary"
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Grade I, II,III",
+    description: "School transport is provided and is charged based on the distance from home to school",
+    price: "120,000.00",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "School Fee",
+      "Tea and bites",
+      "Lunch",
+      "Diary"
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    title: "Grace IV, V,VI",
+    description: "School transport is provided and is charged based on the distance from home to school",
+    price: "150,000.00",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "School Fee",
+      "Tea and bites",
+      "Lunch",
+      "Diary"
     ],
   },
 ];
@@ -244,53 +257,53 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Admission",
+    text: "There are 3 import easy steps you will follow to apply of admission at Finest School.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: studentsphoto1,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Learning",
+    text: "At our school, learning is an adventure! We believe in nurturing curious minds and fostering a love for knowledge through innovative teaching methods and hands-on experiences.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: studentsphoto1,
     light: true,
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Sports",
+    text: "A healthy and happier family come alive on our sports activities! From football, running, to swimming, our programs are designed to build confidence and resilience.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: studentsphoto1,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Fees",
+    text: "A Our Fees are affordable and can be paid in four Installments.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: studentsphoto1,
     light: true,
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Teachers and Staff",
+    text: "Our teachers are qualified and dedicated to teaching students of all ages Standardized lesson plans are created to meet the need of each student and queezes are offered to help students understand complex topics.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: studentsphoto1,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Open for improvement",
+    text: "If there is anything specific that you would like to know about or would like us to include on our community you can contact the school and see how we can work together.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: studentsphoto1,
   },
 ];
 
