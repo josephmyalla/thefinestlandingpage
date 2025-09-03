@@ -242,7 +242,7 @@ export const pricing = [
   },
   {
     id: "2",
-    title: "Grace IV, V,VI",
+    title: "Grade IV, V,VI",
     description: "School transport is provided and is charged based on the distance from home to school",
     price: "150,000.00",
     features: [
